@@ -1,6 +1,6 @@
 import { assertEquals } from "@std/assert";
 import { range, type RangeResult } from "./range.ts";
-import { ok } from "npm:neverthrow";
+import { ok } from "neverthrow";
 import { assert } from "@std/assert";
 
 function assertRangeError(

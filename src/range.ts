@@ -1,4 +1,4 @@
-import { type Result, ok, err } from "npm:neverthrow";
+import { type Result, ok, err } from "neverthrow";
 
 /**
  * RangeError represents an error that can occur when calling the range function.
