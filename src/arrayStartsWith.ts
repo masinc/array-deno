@@ -15,7 +15,7 @@
 export function arrayStartsWith<T>(
   source: T[],
   search: T[],
-  position?: number
+  { position }: { position?: number } = {}
 ): boolean {
   if (position !== undefined && position < 0) {
     return false;
