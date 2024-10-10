@@ -20,7 +20,7 @@ export type RangeResult = Result<number[], RangeError>;
 /**
  * RangeOptions represents the options for the range function.
  */
-interface RangeOptions {
+export interface RangeOptions {
   /**
    * The step between each element in the range. Default is 1.
    */
