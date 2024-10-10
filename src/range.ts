@@ -12,10 +12,22 @@ export type RangeError =
       message: string;
     };
 
+/**
+ * RangeResult represents the result of calling the range function.
+ */
 export type RangeResult = Result<number[], RangeError>;
 
+/**
+ * RangeOptions represents the options for the range function.
+ */
 interface RangeOptions {
+  /**
+   * The step between each element in the range. Default is 1.
+   */
   step?: number;
+  /**
+   * Whether to include the end of the range. Default is false.
+   */
   inclusive?: boolean;
 }
 
